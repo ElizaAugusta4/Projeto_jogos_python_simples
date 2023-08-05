@@ -6,7 +6,7 @@ import pygame
 # Função para reproduzir a música em segundo plano
 def play_background_music():
     pygame.mixer.init()
-    pygame.mixer.music.load('C:/Users/Pichau/Documents/Git-Github/Eliza/Projeto_Lelist/Projeto_Lelist/Projeto_jogos_python_simples/audio.mp3')
+    pygame.mixer.music.load('audio.mp3')
     pygame.mixer.music.play(-1)  # -1 significa tocar a música em loop
 
 # Função para exibir as instruções do jogo

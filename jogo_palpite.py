@@ -34,7 +34,7 @@ def iniciar_jogo():
     tentativas = 0
     btn_adivinhar['state'] = tk.NORMAL
     messagebox.showinfo("Bem-vindo", f"Tente adivinhar o número entre {intervalo_min} e {intervalo_max}.")
-    pygame.mixer.music.load("C:/Users/Pichau/Documents/Git-Github/Eliza/Projeto_Lelist/Projeto_Lelist/Projeto_jogos_python_simples/audio.mp3")  # Carrega a música de fundo
+    pygame.mixer.music.load("audio.mp3")  # Carrega a música de fundo
     pygame.mixer.music.play(-1)  # Reproduz a música em loop infinito
 
 def jogo_adivinhacao():
